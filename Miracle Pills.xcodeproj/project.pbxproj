@@ -196,7 +196,7 @@
 				TargetAttributes = {
 					E175B8851E509DF500BC529F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = LGFEPM8494;
+						DevelopmentTeam = 68T6UH83E7;
 						ProvisioningStyle = Automatic;
 					};
 					E175B89C1E509DF500BC529F = {
@@ -419,12 +419,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LGFEPM8494;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 68T6UH83E7;
 				INFOPLIST_FILE = "Miracle Pills/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Andreas-Sterner.Miracle-Pills";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Sterner.Miracle-Pills";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -432,12 +434,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LGFEPM8494;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 68T6UH83E7;
 				INFOPLIST_FILE = "Miracle Pills/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Andreas-Sterner.Miracle-Pills";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Sterner.Miracle-Pills";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -518,6 +522,7 @@
 				E175B8B31E509DF500BC529F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E175B8B41E509DF500BC529F /* Build configuration list for PBXNativeTarget "Miracle PillsTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				E175B8B61E509DF500BC529F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E175B8B71E509DF500BC529F /* Build configuration list for PBXNativeTarget "Miracle PillsUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				E175B8B91E509DF500BC529F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
